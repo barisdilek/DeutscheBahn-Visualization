@@ -1,32 +1,3 @@
-# Infrastructure Visualisation Coding Challenge
-
-In this coding challenge you are given the task to implement a small JavaScript application to
-visualize a graph network. For that you have an infrastructure file which contains a JSON object
-with all the needed information to render the network.
-
-The result should look similar to this:
-
-![alt infrastructure example](output-example.png "Example Infra")
-
-You are free to choose a drawing/visualization method of your choice. The nodes should have a thick
-outline as a hover effect and the color of the nodes should change (and stay changed) if the user
-selects them via a click. Only one node can be marked as selected at the same time.
-
-_Hint: You can render svg elements directly in jsx like this_ `<line />`
-
-The given JSON file can be loaded directly in your application (no need for a file upload, etc.).
-
-Since we mainly use React in combination with TypeScript, we encourage you to also use this stack.
-But if you don't feel comfortable enough using either of the two you are also free to use any other
-framework and/or plain JavaScript.
-
-Please write the implementation with the highest quality standards in mind which you would also use
-for production code. Visual correctness of the rendered network is the most important criterion.
-After that it will be evaluated in terms of maintainability and code style. Please submit
-everything you have written, including documentation and tests.
-
-Feel free to use supporting libraries as long as they are available on npm.
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
